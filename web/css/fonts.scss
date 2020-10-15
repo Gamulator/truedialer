@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('/font/Lato-Regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato Light';
+  src: url('/font/Lato-Light.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-lato: "Lato", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-lato-light: "Lato Light", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
