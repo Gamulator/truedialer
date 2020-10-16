@@ -35,7 +35,7 @@ $(function() {
           Swal.fire({
             icon: 'error',
             title: 'Oops...',
-            text: JSON.stringify(error),
+            text: error.responseText, // JSON.stringify(error),
           });
         });
         const answers = JSON.stringify(result.value)
@@ -94,10 +94,9 @@ $(function() {
           Swal.fire({
             icon: 'error',
             title: 'Oops...',
-            text: JSON.stringify(error),
+            text: error.responseText, // JSON.stringify(error),
           });
         });
-        const answers = JSON.stringify(result.value)
         Swal.fire('Connecting...');
       }
     });

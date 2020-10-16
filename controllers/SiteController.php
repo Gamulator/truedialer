@@ -110,7 +110,7 @@ class SiteController extends Controller
                 ]
             );
         } catch (\Exception $e) {
-            return $e;
+            return $e->getMessage();
         }
 
         Yii::$app->response->format = Response::FORMAT_JSON;
